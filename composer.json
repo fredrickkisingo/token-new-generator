@@ -1,7 +1,7 @@
 {
     "name": "fredrickkisingo/token-new-generator",
     "type": "sdk",
-    "version": "1.0.0.2",
+    "version": "1.0.0.3",
     "description": "Simple SDK to save consumer key and consumer secrets",
     "keywords": ["token-new", "token-generator"],
     "license": "MIT",
