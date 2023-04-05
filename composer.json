@@ -1,5 +1,5 @@
 {
-    "name": "fred/token-new-generator",
+    "name": "fredrickkisingo/token-new-generator",
     "type": "sdk",
     "description": "Simple SDK to save consumer key and consumer secrets",
     "keywords": ["token-new", "token-generator"],
