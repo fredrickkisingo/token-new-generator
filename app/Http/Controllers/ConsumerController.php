@@ -17,7 +17,10 @@ class ConsumerController extends Controller
         $consumerSDK = new ConsumerSDK;
         $consumerSDK->saveKeys($request->consumer_key, $request->consumer_secret);
 
-        return redirect()->route('consumer.show')->with('success', 'Critical keys saved!');
+        return response()->json([
+            'message' => 'Critical keys saved!',
+        ], 200);
+        
     }
 
     public function showKeys()
