@@ -1,7 +1,7 @@
 {
     "name": "fredrickkisingo/token-new-generator",
     "type": "sdk",
-    "version": "1.0.0.1",
+    "version": "1.0.0.2",
     "description": "Simple SDK to save consumer key and consumer secrets",
     "keywords": ["token-new", "token-generator"],
     "license": "MIT",
@@ -33,13 +33,6 @@
             "App\\Providers\\": "app/Providers/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Your\\Package\\YourPackageServiceProvider"
-            ]
         }
     },
     "minimum-stability": "dev",
