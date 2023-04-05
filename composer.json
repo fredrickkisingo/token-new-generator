@@ -1,7 +1,7 @@
 {
     "name": "fredrickkisingo/token-new-generator",
     "type": "sdk",
-    "version": "1.0.0.3",
+    "version": "1.0.0.4",
     "description": "Simple SDK to save consumer key and consumer secrets",
     "keywords": ["token-new", "token-generator"],
     "license": "MIT",
@@ -31,6 +31,7 @@
         "psr-4": {
             "App\\": "app/",
             "App\\Providers\\": "app/Providers/",
+            "Fredrickkisingo\\TokenNewGenerator\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
