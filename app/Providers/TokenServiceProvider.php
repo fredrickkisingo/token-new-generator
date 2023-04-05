@@ -1,4 +1,5 @@
 <?php
+namespace FredrickKisingo\TokenNewGenerator;
 
 use Illuminate\Support\ServiceProvider;
 
